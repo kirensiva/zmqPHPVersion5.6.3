@@ -1,0 +1,13 @@
+1. Copy php_zmq.dll into ext folder
+2. Copy libsodium.dll and libzmq.dll into php root folder
+3. Add the extension in php extension=php_zmq.dll
+3. Restart Wamp
+
+My php info is 
+
+PHP Version 7.0.4
+PHP API	20151012
+PHP Extension	20151012
+Loaded Configuration File	D:\wamp64_2\bin\apache\apache2.4.18\bin\php.ini
+
+https://stackoverflow.com/questions/40412911/php-zmq-extension-unable-to-load-dynamic-library
